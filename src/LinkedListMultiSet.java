@@ -15,6 +15,7 @@ public class LinkedListMultiSet extends MultiSet {
     // a linked list initially is empty
     private Node front;
     private int size;
+    private int testVar;
 
 
     public void add(int item) {
