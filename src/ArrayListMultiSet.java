@@ -4,6 +4,7 @@ public class ArrayListMultiSet extends MultiSet {
 
     // this ArrayList object is a private instance variable for this class.
     private final ArrayList<Integer> lst = new ArrayList<>();
+    private final int test = 3;
 
     /**
      * Add the given item to this multiset.
